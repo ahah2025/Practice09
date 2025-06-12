@@ -44,8 +44,8 @@ public class RecListApp {
 		rList.remove(0);
 		
 				//r04 오류
-		Rectangle r04 = new Rectangle(9,5);
-		rList.add(r04);
+		Rectangle r041 = new Rectangle(9,5);
+		rList.add(r041);
 		for(int i=0; i<rList.size(); i++) {
 			System.out.println(rList.get(i).toString());
 		}
@@ -54,7 +54,7 @@ public class RecListApp {
 		r01.draw();
 		r02.draw();
 		r03.draw();
-		r04.draw();
+		r041.draw();
 		
 		System.out.println("#모든 사각형의 넓이 합 출력=======================================");
 		//모든 사각형의 넓이 합 구하기 코드 작성
